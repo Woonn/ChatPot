@@ -1,0 +1,37 @@
+# os
+os
+
+# python3
+# sudo apt-get install python3-pip 
+# sudo pip3 install unicornhat
+
+# RPi.GPIO
+RPi.GPIO==0.7.0
+
+# speech recognition
+# IF IT IS NOT WORK, THEN USING pip3 install SpeechRecognition
+SpeechRecognition==3.8.1
+
+
+# sudo apt-get install portaudio19-dev -y
+pyaudio
+# request
+# json
+
+# tts
+mpg123
+# sudo apt-get install python-pygame
+
+# Sensor
+spidev==3.4
+sudo pip3 install Adafruit_DHT
+
+# LCD
+# set 'Raspberry Pi Configuration' --> Enable I2C
+sudo apt-get install python-smbus
+sudo apt-get install python3-smbus
+i2cdetect -y 1
+git clone https://github.com/eleparts/RPi_I2C_LCD_driver
+
+# soil 
+
